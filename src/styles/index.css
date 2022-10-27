@@ -82,9 +82,9 @@ body {
   opacity: 10;
   animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 5s; /* don't forget to set a duration! */
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
+  animation-duration: 2.0s;
+            animation-timing-function: ease-out;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+            animation-play-state: running;
 }

@@ -1,13 +1,16 @@
-import React from "react";
-import Whatsapp from "../../images/whatsapp.png";
-import Instagram from "../../images/instagram.png";
-import Site from "../../images/site.png";
-import Profile from "../../images/profile.png";
+import React from "react"
+import Whatsapp from "../../images/whatsapp.png"
+import Instagram from "../../images/instagram.png"
+import Site from "../../images/site.png"
+import Profile from "../../images/profile.png"
 
 export default function Content() {
   return (
     <>
-      <div id="wrapper" className="container mt-2 animate__animated animate__fadeIn">
+      <div
+        id="wrapper"
+        className="container mt-2 animate__animated animate__fadeIn"
+      >
         <div className="row">
           <div id="block-1" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="box-1 box-content_primary_1  ">
@@ -27,7 +30,7 @@ export default function Content() {
                         fontSize: "2.5em",
                         lineHeight: "1.25",
                         color: "rgba(40,40,43,0.6)",
-                        fontWeight: "200",
+                        fontWeight: "300",
                       }}
                     >
                       Alcinir Pessanha
@@ -40,7 +43,7 @@ export default function Content() {
                         fontSize: "1em",
                         lineHeight: 1.5,
                         color: "rgba(0, 0, 0, 0.4)",
-                        fontWeight: "400",
+                        fontWeight: "600",
                       }}
                     >
                       Conselheiro em dependência química
@@ -48,10 +51,24 @@ export default function Content() {
                       Atendimento online e presencial
                     </p>
                   </div>
+                  <hr className="solid"></hr>
+
                   <div className="social-icons">
-                    <img className="animate__animated animate__heartBeat" src={Whatsapp} style={{ marginRight: "0.8rem" }} />
-                    <img className="animate__animated animate__heartBeat" src={Instagram} style={{ marginRight: "0.8rem" }} />
-                    <img className="animate__animated animate__heartBeat" src={Site} style={{ marginRight: "" }} />
+                    <img
+                      className="animate__animated animate__heartBeat"
+                      src={Whatsapp}
+                      style={{ marginRight: "0.8rem" }}
+                    />
+                    <img
+                      className="animate__animated animate__heartBeat"
+                      src={Instagram}
+                      style={{ marginRight: "0.8rem" }}
+                    />
+                    <img
+                      className="animate__animated animate__heartBeat"
+                      src={Site}
+                      style={{ marginRight: "" }}
+                    />
                   </div>
                 </div>
               </div>
@@ -61,4 +78,4 @@ export default function Content() {
       </div>
     </>
   )
-};
+}
