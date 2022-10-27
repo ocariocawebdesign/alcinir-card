@@ -36,39 +36,46 @@ export default function Content() {
                       Alcinir Pessanha
                     </h1>
                     <p
-                      className="text-center"
+                      className="text-center text-uppercase"
                       style={{
                         letterSpacing: "-0.021875rem",
                         width: "100%",
-                        fontSize: "1em",
+                        fontSize: "0.8em",
                         lineHeight: 1.5,
                         color: "rgba(0, 0, 0, 0.4)",
                         fontWeight: "600",
+                        textAlign:"justify"
                       }}
                     >
-                      Conselheiro em dependência química
+                      Terapeuta Conselheiro em dependência química CRT - 1053/22
                       <br /> 9° período de psicologia <br />
                       Atendimento online e presencial
                     </p>
                   </div>
                   <hr className="solid"></hr>
 
-                  <div className="social-icons">
+                  <div className="social-icons" >
+                    <a href="https://api.whatsapp.com/send?phone=5521967530653&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..." target="_blank" title="WhatsApp" alt="WhatsApp">
                     <img
                       className="animate__animated animate__heartBeat"
                       src={Whatsapp}
                       style={{ marginRight: "0.8rem" }}
                     />
+                    </a>
+                    <a href="https://www.instagram.com/alcinir_terapeuta/" target="_blank" title="Instagram" alt="Instagram">
                     <img
                       className="animate__animated animate__heartBeat"
                       src={Instagram}
                       style={{ marginRight: "0.8rem" }}
                     />
+                    </a>
+                    <a href="https://ocariocaweb.gatsbyjs.io/" target="_blank" title="Site" alt="Site">
                     <img
                       className="animate__animated animate__heartBeat"
                       src={Site}
                       style={{ marginRight: "" }}
                     />
+                    </a>
                   </div>
                 </div>
               </div>
