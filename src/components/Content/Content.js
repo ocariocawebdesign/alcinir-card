@@ -3,6 +3,7 @@ import Whatsapp from "../../images/whatsapp.png"
 import Instagram from "../../images/instagram.png"
 import Site from "../../images/site.png"
 import Profile from "../../images/profile.png"
+import WhatsAppButton from "../WhatsAppButton"
 
 export default function Content() {
   return (
@@ -44,7 +45,7 @@ export default function Content() {
                         lineHeight: 1.5,
                         color: "rgba(0, 0, 0, 0.4)",
                         fontWeight: "600",
-                        textAlign:"justify"
+                        textAlign: "justify",
                       }}
                     >
                       Terapeuta Conselheiro em dependência química CRT - 1053/22
@@ -54,30 +55,42 @@ export default function Content() {
                     <hr className="solid"></hr>
                   </div>
 
-               
-                 
-
-                  <div className="social-icons" >
-                    <a href="https://api.whatsapp.com/send?phone=5521967530653&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..." target="_blank" title="WhatsApp" alt="WhatsApp">
-                    <img
-                      className="animate__animated animate__heartBeat"
-                      src={Whatsapp}
-                      style={{ marginRight: "0.8rem" }}
-                    />
+                  <div className="social-icons">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5521967530653&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
+                      target="_blank"
+                      title="WhatsApp"
+                      alt="WhatsApp"
+                    >
+                      <img
+                        className="animate__animated animate__heartBeat"
+                        src={Whatsapp}
+                        style={{ marginRight: "0.8rem" }}
+                      />
                     </a>
-                    <a href="https://www.instagram.com/alcinir_terapeuta/" target="_blank" title="Instagram" alt="Instagram">
-                    <img
-                      className="animate__animated animate__heartBeat"
-                      src={Instagram}
-                      style={{ marginRight: "0.8rem" }}
-                    />
+                    <a
+                      href="https://www.instagram.com/alcinir_terapeuta/"
+                      target="_blank"
+                      title="Instagram"
+                      alt="Instagram"
+                    >
+                      <img
+                        className="animate__animated animate__heartBeat"
+                        src={Instagram}
+                        style={{ marginRight: "0.8rem" }}
+                      />
                     </a>
-                    <a href="https://ocariocaweb.gatsbyjs.io/" target="_blank" title="Site" alt="Site">
-                    <img
-                      className="animate__animated animate__heartBeat"
-                      src={Site}
-                      style={{ marginRight: "" }}
-                    />
+                    <a
+                      href="https://ocariocaweb.gatsbyjs.io/"
+                      target="_blank"
+                      title="Site"
+                      alt="Site"
+                    >
+                      <img
+                        className="animate__animated animate__heartBeat"
+                        src={Site}
+                        style={{ marginRight: "" }}
+                      />
                     </a>
                   </div>
                 </div>
@@ -85,6 +98,7 @@ export default function Content() {
             </div>
           </div>
         </div>
+        <WhatsAppButton />
       </div>
     </>
   )
