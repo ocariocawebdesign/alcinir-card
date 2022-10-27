@@ -7,7 +7,7 @@ import Profile from "../../images/profile.png";
 export default function Content() {
   return (
     <>
-      <div id="wrapper" className="container mt-4">
+      <div id="wrapper" className="container mt-2">
         <div className="row">
           <div id="block-1" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="box-1 box-content_primary_1  ">
