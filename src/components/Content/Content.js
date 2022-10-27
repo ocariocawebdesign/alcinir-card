@@ -3,7 +3,7 @@ import Whatsapp from "../../images/whatsapp.png"
 import Instagram from "../../images/instagram.png"
 import Site from "../../images/site.png"
 import Profile from "../../images/profile.png"
-import WhatsAppButton from "../WhatsAppButton"
+//import WhatsAppButton from "../WhatsAppButton"
 
 export default function Content() {
   return (
@@ -98,7 +98,7 @@ export default function Content() {
             </div>
           </div>
         </div>
-        <WhatsAppButton />
+      
       </div>
     </>
   )
