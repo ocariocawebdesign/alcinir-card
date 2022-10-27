@@ -7,7 +7,7 @@ import Profile from "../../images/profile.png";
 export default function Content() {
   return (
     <>
-      <div id="wrapper" className="container mt-2">
+      <div id="wrapper" className="container mt-2 animate__animated animate__fadeIn">
         <div className="row">
           <div id="block-1" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div className="box-1 box-content_primary_1  ">
@@ -49,9 +49,9 @@ export default function Content() {
                     </p>
                   </div>
                   <div className="social-icons">
-                    <img src={Whatsapp} style={{ marginRight: "0.8rem" }} />
-                    <img src={Instagram} style={{ marginRight: "0.8rem" }} />
-                    <img src={Site} style={{ marginRight: "" }} />
+                    <img className="animate__animated animate__heartBeat" src={Whatsapp} style={{ marginRight: "0.8rem" }} />
+                    <img className="animate__animated animate__heartBeat" src={Instagram} style={{ marginRight: "0.8rem" }} />
+                    <img className="animate__animated animate__heartBeat" src={Site} style={{ marginRight: "" }} />
                   </div>
                 </div>
               </div>
