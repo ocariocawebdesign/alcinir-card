@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap");
 
 body {
+ /* background-image: url("../images/cool-background.svg");*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
   background: #1e3982;
   background: linear-gradient(
     90deg,
     #ffff 0%,
     rgb(235, 235, 235) 30%,
     #1e3982 100%
-  );
+  )
 }
 
 #wrapper {
@@ -58,7 +63,7 @@ body {
   background-size: cover;
   box-shadow: 0rem 1.25rem 2.625rem 0.375rem rgba(145, 144, 144, 0.18);
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-  border:#ffffff;
+  border: #ffffff;
   transition: opacity 1.125s ease 0.5s, transform 1.125s ease 0.5s;
   padding: 2rem;
   margin-top: 5rem;
@@ -73,6 +78,11 @@ body {
 
 .social-icons {
   width: calc(100% + 0.75rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin: auto;
 }
 
 .social-icons img {
@@ -83,13 +93,42 @@ body {
   opacity: 10;
   animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 5s; /* don't forget to set a duration! */
-  animation-duration: 2.0s;
-            animation-timing-function: ease-out;
-            animation-direction: alternate;
-            animation-iteration-count: infinite;
-            animation-play-state: running;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
 }
 
 hr.solid {
   border-top: 1px solid #bbb;
+}
+
+.btn-services {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: left;
+}
+
+span {
+  font-family: "Source Sans Pro", sans-serif;
+  /*letter-spacing: -0.021875rem;*/
+  width: 100%;
+  font-size: 0.8em;
+  line-height: 1.5;
+  color: #494848;
+  font-weight: 600;
+  padding: 0;
+  margin-right: 32px;
+}
+
+span:hover {
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+  color:#333;
 }
