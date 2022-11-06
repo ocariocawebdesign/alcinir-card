@@ -6,7 +6,6 @@ import Profile from "../../images/profile.png"
 //import Pix from "../../images/pix.png"
 import Phone from "../../images/phone.png"
 
-
 //import WhatsAppButton from "../WhatsAppButton"
 
 export default function Content() {
@@ -93,23 +92,7 @@ export default function Content() {
                         Marcação de consulta
                       </span>
                     </a>
-                    <a
-                      className="btn btn-services mb-1"
-                      href="21995501309"
-                      target="_blank"
-                      title="Telefone"
-                      alt="Telefone"
-                    >
-                      <img 
-                        className="animate__animated animate__heartBeat"
-                        src={Phone}
-                        style={{ opacity:'0.5' }}
-                        width="28"
-                        height="28"
-                       
-                      />
-                      <span className="">Ligar</span>
-                    </a>
+
                     <a
                       className="btn btn-services mb-1"
                       href="https://www.instagram.com/alcinir_terapeuta/"
@@ -125,6 +108,22 @@ export default function Content() {
                         height="32"
                       />
                       <span className="">Instagram</span>
+                    </a>
+                    <a
+                      className="btn btn-services mb-1"
+                      href="tel:+5521995501309"
+                      target="_blank"
+                      title="Telefone"
+                      alt="Telefone"
+                    >
+                      <img
+                        className="animate__animated animate__heartBeat"
+                        src={Phone}
+                        style={{ opacity: "0.5" }}
+                        width="28"
+                        height="28"
+                      />
+                      <span className="">Ligar</span>
                     </a>
 
                     {/* <a
